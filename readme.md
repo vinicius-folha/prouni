@@ -10,7 +10,8 @@
    * [Prerequisites](#Prerequisites)
    * [Features](#Features)
    * [Improves](#Improves)
-   * [Technology](#Technology)
+   * [🛠 Technology](#🛠-Technology)
+   * [📷 Pictures](#📷-Pictures)
 <!--te-->
 ## About
 Dashboard and ETL project built with data from ProUni (2016-2018) using Dash, PySpark, SQL Server.
@@ -51,6 +52,8 @@ $ gedit ~/.bashrc
     export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 # Activate the changes:
 $ source ~/.bashrc
+
+pip3 install -r requirements.txt
 ```
 
 ### Features
@@ -82,3 +85,9 @@ The following tools were used in the construction of the project:
 - [Pyspark](https://spark.apache.org/docs/latest/api/python/)
 - [Dash](https://dash.plotly.com/)
 
+### 📷 Pictures
+![Alt text](screenshots/Example_Idade_RACA.png?raw=true "Example: Idade x Raça")
+
+![Alt text](screenshots/Example_Idade_Turno.png?raw=true "Example: Idade x Turno")
+
+![Alt text](screenshots/Example_Modalidade_Raca.png?raw=true "Example: Modalidade x Raca")
