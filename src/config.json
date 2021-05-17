@@ -1,0 +1,7 @@
+{
+    "db": {
+        "database": "ProUni",
+        "user": "SA",
+        "password": "159753!@#vF",
+        "jdbcDrivePath": "/home/vof/Desktop/Projects/prouniProject/src/sqljdbc42.jar"}
+}
