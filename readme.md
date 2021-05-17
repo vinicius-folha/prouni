@@ -8,6 +8,7 @@
    * [Table of Contents](#Table-of-Contents)
    * [About](#About)
    * [Prerequisites](#Prerequisites)
+   * [To Run](#To-Run)
    * [Features](#Features)
    * [Improves](#Improves)
    * [🛠 Technology](#🛠-Technology)
@@ -53,9 +54,14 @@ $ gedit ~/.bashrc
 # Activate the changes:
 $ source ~/.bashrc
 
+# Recommend create a Virtual Env before this command
 pip3 install -r requirements.txt
 ```
-
+## To Run
+```bash
+python3 src/etl/init.py
+python3 src/main.py
+```
 ### Features
 
 - [x] ETL

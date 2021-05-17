@@ -155,7 +155,7 @@ def update_bar_chart(optionX, optionY, data):
                  color=optionX, barmode="group")
     resultLine = allDf.groupby(
         ['ANO_CONCESSAO_BOLSA', optionX]).sum().reset_index()
-    print(resultLine)
+
     line = px.line(resultLine, x="ANO_CONCESSAO_BOLSA", y="count",
                    color=optionX)
     return bar, line
